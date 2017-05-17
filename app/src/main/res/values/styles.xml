@@ -74,9 +74,21 @@
         <item name="android:textSize">36sp</item>
     </style>
 
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="HeaderTitleStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="CollapsedTitleStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:singleLine">true</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

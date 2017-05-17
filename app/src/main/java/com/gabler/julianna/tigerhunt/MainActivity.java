@@ -1,5 +1,6 @@
 package com.gabler.julianna.tigerhunt;
 
+import android.content.Intent;
 import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -13,7 +14,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import java.util.ArrayList;
+import com.gabler.julianna.tigerhunt.login.LoginActivity;
+import com.gabler.julianna.tigerhunt.task_list.TabHostFragment;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -98,6 +101,9 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "Settings selected", Toast.LENGTH_SHORT)
                         .show();
                 break;
+            case R.id.action_logout:
+                this.signout();
+                break;
             default:
                 break;
         }
@@ -105,13 +111,15 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    @Override
-    public void onBackPressed() {
-        if (getFragmentManager().getBackStackEntryCount() > 0 ){
-            getFragmentManager().popBackStack();
-        } else {
-            super.onBackPressed();
-        }
+
+    private void signout() {
+        FirebaseAuth auth = FirebaseAuth.getInstance();
+        auth.signOut();
+        startActivity(new Intent(MainActivity.this, LoginActivity.class));
+        finish();
+
+        Toast.makeText(getApplicationContext(), "Successfully Logged Out", Toast.LENGTH_SHORT).show();
+
     }
 
 

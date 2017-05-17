@@ -1,4 +1,4 @@
-package com.gabler.julianna.tigerhunt;
+package com.gabler.julianna.tigerhunt.task_list;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -7,14 +7,14 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.res.ResourcesCompat;
-import android.support.v7.app.ActionBar;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.gabler.julianna.tigerhunt.R;
+import com.gabler.julianna.tigerhunt.Task;
 
 import java.util.ArrayList;
 

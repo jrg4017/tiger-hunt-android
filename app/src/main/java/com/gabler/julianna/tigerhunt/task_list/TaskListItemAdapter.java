@@ -1,4 +1,4 @@
-package com.gabler.julianna.tigerhunt;
+package com.gabler.julianna.tigerhunt.task_list;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -8,6 +8,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.gabler.julianna.tigerhunt.R;
+import com.gabler.julianna.tigerhunt.Task;
 
 import java.util.ArrayList;
 
