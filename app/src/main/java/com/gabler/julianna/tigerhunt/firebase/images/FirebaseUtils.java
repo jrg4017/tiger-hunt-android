@@ -4,6 +4,7 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -27,6 +28,8 @@ import java.io.ByteArrayOutputStream;
 
 
 public class FirebaseUtils {
+
+    private final static String TAG = "FirebaseUtils";
 
     private StorageReference mStorageRef;
     private DatabaseReference mDatabaseRef;
@@ -75,6 +78,7 @@ public class FirebaseUtils {
             pointsRef.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot snapshot) {
+                    Log.d(TAG, "onDataChange");
                     int totalPoints = (int) snapshot.getValue();
                     totalPoints += task.points;
 
@@ -84,6 +88,7 @@ public class FirebaseUtils {
 
                 @Override
                 public void onCancelled(DatabaseError databaseError) {
+                    Log.d(TAG, "OnCancelled");
                     // currently at zero so update
                     pointsRef.setValue(task.points);
                 }
