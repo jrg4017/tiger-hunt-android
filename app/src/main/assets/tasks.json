@@ -1,0 +1,262 @@
+{
+  "lastModified": "2016-12-09T22:58:36.000Z",
+  "tasks": [
+    {
+      "taskID": "1",
+      "taskName": "Large Metal Sculpture",
+      "locationName": "The Sentinel",
+      "latitude": "43.084710",
+      "longitude": "-77.674351",
+      "hint": "Towering above the surrounding buildings, this sculpture is often mistaken for scrap metal. It is said if you view the sculpture from the right angle, it looks like a knight riding towards the school. The sculpture is also rumored to be RIT's weather machine.",
+      "isActivity": "false",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "2",
+      "taskName": "Religious Center",
+      "locationName": "Schmitt Interfaith Center",
+      "latitude": "43.084100",
+      "longitude": "-77.673452",
+      "hint": "Where people of all faiths come to congreate during the week between a place to sweat and a place to score some free gum. This place is also the home of the RIT bells.",
+      "isActivity": "false",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "3",
+      "taskName": "Free Gum Hotspot",
+      "locationName": "Campus Center",
+      "latitude": "43.084214",
+      "longitude": "-77.673876",
+      "hint": "When lost or have questions, this is the central place to find some help. You can also find the old swimming hall bleachers here as a fountain and a dozen organization offices.  You can find it in the building across from the Clark Gym.",
+      "isActivity": "false",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "4",
+      "taskName": "RIT's Radio Station",
+      "locationName": "WITR FM Desk",
+      "latitude": "43.084261",
+      "longitude": "-77.674646",
+      "hint": "Inside the Student Alumni Union, you can discover Tiger DJs broadcasting indie tunes through a glass window while snacking on ice cream or on Nathan's.",
+      "isActivity": "false",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "5",
+      "taskName": "Home of the Tiger Library",
+      "locationName": "The Wallace Center",
+      "latitude": "43.083922",
+      "longitude": "-77.676333",
+      "hint": "Located in the center of campus, this building is the Tiger's hunting ground for book rentals and compuers to use. Tigers also use this spot to study, nap, and print assignments.",
+      "isActivity": "false",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "6",
+      "taskName": "Find the Music Record Wall",
+      "locationName": "Java Wally's Record Wall",
+      "hint": "Located in one of RIT's major coffee spots, the aptly decorated wall features records from the past. You can find the wall in the same building as the library.",
+      "isActivity": "true",
+      "points": "30",
+      "imageURL": ""
+    },
+    {
+      "taskID": "7",
+      "taskName": "Snag a comfty coffee couch ",
+      "locationName": "java Wally's lounge",
+      "hint": "The coveted couches in a hip coffee spot are hard to get during it's busiest hours. It's not an uncommon to see Tigers catch a snooze between classes here.",
+      "isActivity": "true",
+      "points": "30",
+      "imageURL": ""
+    },
+    {
+      "taskID": "8",
+      "taskName": "The Secret Garden",
+      "locationName": "Kodak Quad Zen Garden",
+      "latitude": "43.084717",
+      "longitude": "-77.675948",
+      "hint": "Hidden in Kodak Quad, this small garden is a place to relax by a koi pond and a mini waterfall.",
+      "isActivity": "false",
+      "points": "40",
+      "imageURL": ""
+    },
+    {
+      "taskID": "9",
+      "taskName": "Tiger Art Gallery",
+      "locationName": "Bevier Gallery",
+      "latitude": "43.084989",
+      "longitude": "-77.677018",
+      "hint": "One of many spots on campus for Tigers to showcase art, this gallery is located in Booth. The gallery often showcases the work and styles of multiple CIAS discplines.",
+      "isActivity": "false",
+      "points": "30",
+      "imageURL": ""
+    },
+    {
+      "taskID": "10",
+      "taskName": "Find the Silver Infinity ",
+      "locationName": "Infinity Quad",
+      "hint": "This infinity symbol rotates slowly so Tigers can view the inifinity at different angles throughout the day. The symbol is located in a quad named after this symbol between the Engineering, Science, and Art buildings.",
+      "isActivity": "true",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "11",
+      "taskName": "Brand new hockey",
+      "locationName": "Gene Polisseni Center",
+      "latitude": "43.082677",
+      "longitude": "-77.674620",
+      "hint": "This ice rink is where Tigers gather to watch hockey. One of two rinks on campus, this one is newer, bigger, and better.",
+      "isActivity": "false",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "12",
+      "taskName": "The Success Machine",
+      "locationName": "Office of Career Services",
+      "latitude": "43.086064",
+      "longitude": "-77.675464",
+      "hint": "This place is home to RIT's career services and co-op program. Every semester this office hosts a career fair to help Tigers score internships, co-ops, and Fulltime jobs.",
+      "isActivity": "false",
+      "points": "25",
+      "imageURL": ""
+    },
+    {
+      "taskID": "13",
+      "taskName": "Selfie with RITchie",
+      "locationName": "Unknown",
+      "hint": "Known to show up at sporting events, the Tiger's beloved mascot provides morale and fun whereever he goes.",
+      "isActivity": "true",
+      "points": "50",
+      "imageURL": ""
+    },
+    {
+      "taskID": "14",
+      "taskName": "Dine at Grace Waston Hall",
+      "locationName": "Grace Waston Hall",
+      "hint": "This food spot is the cornerstone of ever Tiger's freshman year. Gracies provides a buffet style to its hungry patrons. You can find it on dormside, close to ResLife.",
+      "isActivity": "true",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "15",
+      "taskName": "Ride RITchie",
+      "locationName": "Center of Campus",
+      "hint": "Not to be confused with the living RITChie, this bronze statue showcases the Tigers best side: fierce and determined. You can find him roraing in the middle of campus.",
+      "isActivity": "true",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "16",
+      "taskName": "Run Tiger Run",
+      "locationName": "Gordon Field House",
+      "latitude": "43.084868",
+      "longitude": "-77.671984",
+      "hint": "Central to campus, this gym is the hunting and sweating grounds for fellow Tigers looking to keep in shape. The building houses two tracks, a weight room, olympic size pool, a recreation pool, various basketball and raquet ball courts, and various dance studios. ",
+      "isActivity": "false",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "17",
+      "taskName": "Hidden from the sun",
+      "locationName": "Sol's Underground",
+      "latitude": "43.085558",
+      "longitude": "-77.667156",
+      "hint": "Down underneath the dorms, there is a complex ecosystem consisting of tunnels. Here you can find a popular grub spot for fellow dorm residing Tigers.",
+      "isActivity": "false",
+      "points": "25",
+      "imageURL": ""
+    },
+    {
+      "taskID": "18",
+      "taskName": "Snap a picture with tunnel art",
+      "locationName": "RIT",
+      "hint": "RIT contains a fairly large tunnel system under the various buildings across campus. Tigers thought naturally of course, that they better make it look pretty!",
+      "isActivity": "true",
+      "points": "25",
+      "imageURL": ""
+    },
+    {
+      "taskID": "19",
+      "taskName": "Deaf theatre",
+      "locationName": "Robert Panera Theatre",
+      "latitude": "43.087188",
+      "longitude": " -77.668315",
+      "hint": "Housed in the college dedicated to supporting the Deaf Tiger community, this theatre is known for putting on productions that includes both signing and speech to include all Tigers.",
+      "isActivity": "false",
+      "points": "40",
+      "imageURL": ""
+    },
+    {
+      "taskID": "20",
+      "taskName": "Groceries on the go",
+      "locationName": "Corner Store",
+      "latitude": "43.084766",
+      "longitude": "-77.667278",
+      "hint": "This store is known for staying open until 2am to allow hungry Tigers to refill while studying. You can find this store buried in the basement because there's no way a Tiger is going to brave the cold.",
+      "isActivity": "false",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "21",
+      "taskName": "Walk on water",
+      "locationName": "Rock Fountation",
+      "hint": "This fountain is often used in photoshoots to give the appearance that people are walking on water. Typically they use the rocks to help them acheive this goal.",
+      "isActivity": "true",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "22",
+      "taskName": "Burning the midnight oil",
+      "locationName": "Midnight OIl",
+      "latitude": "43.082603",
+      "longitude": "-77.679697",
+      "hint": "One of the many hotspots for coffee on campus, this coffeeshop sells Starbucks and snacks to help keep Tigers full and happy.",
+      "isActivity": "false",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "23",
+      "taskName": "Warm yourself by the fire",
+      "locationName": "Global Village",
+      "hint": "Located in the Global Village Plaza, this spot is known to keep Tigers toasty when it's cold out. Various events, centering on global activities take place here.",
+      "isActivity": "true",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "23",
+      "taskName": "Tiger Productions",
+      "locationName": "Ingle Auditorium",
+      "latitude": "43.084078",
+      "longitude": "-77.674276",
+      "hint": "This spot is a popular place to see plays and performances by fellow Tigers. You can find the auditorium hidden away in the Student Alumni Union",
+      "isActivity": "false",
+      "points": "20",
+      "imageURL": ""
+    },
+    {
+      "taskID": "24",
+      "taskName": "Retrofitted gym",
+      "locationName": "Red Barn Climbing Gym",
+      "latitude": "43.084303",
+      "longitude": " -77.684760",
+      "hint": "On the outskirts of RIT, Tigers come to this old red barn to scale walls. You'll find there's more to this building than there seems",
+      "isActivity": "false",
+      "points": "50",
+      "imageURL": ""
+    }
+  ]
+}
